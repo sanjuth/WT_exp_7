@@ -12,7 +12,7 @@ app.use(
 app.set("view engine", "ejs");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://v_keerthana:9014358001@cluster0.njtd8d8.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://mongodb:<password>@cluster0.njtd8d8.mongodb.net/?retryWrites=true&w=majority",
   function (error) {
     if (error) console.log(error);
     console.log("connection successful");
